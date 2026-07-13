@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+
+# Google Search Console
+Sitemap: https://github.com/subham-khandual/Swasthya-Sathi-Your-Health-Companion/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Specific crawler rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
